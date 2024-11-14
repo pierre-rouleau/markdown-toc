@@ -9,6 +9,10 @@
 ;; Keywords: markdown, toc, tools,
 ;; Package-Requires: ((emacs "24.1") (markdown-mode "2.1") (dash "2.11.0") (s "1.9.0"))
 
+;; NOTE:
+;; This is Pierre Rouleau fork at https://github.com/pierre-rouleau/markdown-toc
+;; I created this fork to integrate all pending PRs that had been waiting.
+;;
 ;; This file is NOT part of GNU Emacs.
 
 ;; This program is free software; you can redistribute it and/or modify
@@ -63,7 +67,7 @@
 (require 'markdown-mode)
 (require 'find-func) ; find-library-name
 
-(defconst markdown-toc--toc-version "0.1.5" "Current version installed.")
+(defconst markdown-toc--toc-version "0.1.5-1 (pierre-rouleau fork)" "Current version installed.")
 
 (defgroup markdown-toc nil
   "A simple TOC generator for markdown file."
